@@ -20,9 +20,11 @@ Throughout the challenge, I will be working through different programming exerci
 
 ## 🎓 Academic Context
 
-**Institution:** UPES
-**Program:** B.Tech CSE
-**Challenge:** 100 Days of Code — C Programming
+| | |
+|---|---|
+| **Institution** | UPES |
+| **Program** | B.Tech CSE |
+| **Challenge** | 100 Days of Code — C Programming |
 
 This repository serves as both my **college coursework record and personal reference** for the programs completed during the challenge.
 
