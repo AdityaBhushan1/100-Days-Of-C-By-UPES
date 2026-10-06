@@ -22,9 +22,20 @@ Output 3:
 #include <stdio.h>
 
 int main() {
-    int nums[] = {5, 7, 7, 8, 8, 10};
-    int target = 8;
-    int n = sizeof(nums) / sizeof(nums[0]);
+    int n, target;
+
+    printf("Enter the number of elements in the sorted array: ");
+    scanf("%d", &n);
+
+    int nums[n];
+    printf("Enter %d sorted elements: ", n);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &nums[i]);
+    }
+
+    printf("Enter the target value: ");
+    scanf("%d", &target);
+
     int first = -1, last = -1;
 
     for (int i = 0; i < n; i++) {
